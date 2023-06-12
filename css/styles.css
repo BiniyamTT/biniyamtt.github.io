@@ -490,7 +490,16 @@ progress {
 
 .lead {
   font-size: 1.25rem;
+  color: #4e4e4e;
   font-weight: 300;
+}
+
+.markdown {
+  font-family: 'Roboto Condensed';
+}
+
+.bg-img{
+  background-image: ;
 }
 
 .display-1 {
@@ -5869,7 +5878,7 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 15%;
+  width: 5%;
   padding: 0;
   color: #000;
   text-align: center;
@@ -5904,8 +5913,7 @@ textarea.form-control-lg {
 .carousel-control-prev-icon {
   position: absolute;
   top: 80%;
-  left:20%;
-  right:20%;
+  left:50%;
   display: inline-block;
   width: 2rem;
   height: 2rem;
@@ -5916,7 +5924,7 @@ textarea.form-control-lg {
 .carousel-control-next-icon{
   position: absolute;
   top: 80%;
-  left:60%;
+  right:150%;
   display: inline-block;
   width: 2rem;
   height: 2rem;
@@ -10970,6 +10978,21 @@ section.resume-section {
   padding-bottom: 5rem;
   
 }
+section.resume-section2 {
+  display: flex;
+  text-justify:inter-word;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  
+}
+
+
 section.resume-section .resume-section-content {
   width: 100%;
   height: 100%;
