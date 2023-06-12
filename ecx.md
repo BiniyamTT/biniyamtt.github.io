@@ -14,7 +14,8 @@ The data normalization was done using Power Query and its query language M. The 
 > Origin - Harvest areas<br>
 
 <details><summary>Find the code here</summary><code>
-    
+    {% raw %}
+
             let
         Source = HistoricalPrices,
         #"Removed Other Columns" = Table.SelectColumns(Source,{"Index", "Symbol"}),
@@ -87,6 +88,7 @@ The data normalization was done using Power Query and its query language M. The 
         #"Replaced Value1" = Table.ReplaceValue(#"Reigon Extraction","BB","--",Replacer.ReplaceText,{"SC1"})
     in
         #"Replaced Value1"
+    {% endraw %}
 
   </code></details>
 
