@@ -1,0 +1,6 @@
+node_modules
+.vscode
+LICENSE
+package.json
+README.md
+.travis.yml
